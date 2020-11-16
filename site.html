@@ -19,6 +19,20 @@
         <!--Подключение шрифтов-->
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa&display=swap" rel="stylesheet">
+        
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+           (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+           m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+           (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+           ym(69125665, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true
+           });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/69125665" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     </head>
 
     <body>
@@ -33,20 +47,49 @@
 
         <script src="navicon.js"></script>
 
-        <div class="information">
-            <p><img src="image/about-us-2.png" alt="img1" class="responsive">
-                Данный сайт является визитной карточкой компании Studio 22. На нём размещена информация о креативном пространстве, нашей команде и реализуемых проектах.<br>
-                Сайт написан на языках программирования: html, css, JavaScript; задействован фреймворк css grid. Во многом благодаря фреймворку сайт стал адаптивен на мобильных устройствах.<br>
-                Наша команда благодарит github за предоставленную возможность бесплатного размещщения сайта в сети интернет при помощи github pages.<br>
-                В разработке сайта принимали участие: Меликбекян Ашот, Лёвин Александр и Толоконов Илья.
-            </p>
-        </div>
+        <img src="image/newlogo.png" alt="img1" class="responsive">
 
-        <!--Контакты-->
-        <div class="container">
-            <div class="social_nets">
-                <a href="#"><i class="fa fa-vk fa-3x"></i></a>
-                <a href="#"><i class="fa fa-github fa-3x"></i></a>
+        <div class="information">
+            <!--<div><img src="image/newlogo.png" alt="img1" class="responsive"></div>-->
+            <div class="boxes">
+                <input id="button_1" type="radio" name="buttons" checked>
+                <label for="button_1">Визитная карточка</label>
+                    
+                <input id="button_2" type="radio" name="buttons">
+                <label for="button_2">Реализация</label>
+                    
+                <input id="button_3" type="radio" name="buttons">
+                <label for="button_3">Благодарности</label>
+                    
+                <section id="main-info">
+                    <p>
+                        Данный сайт является визитной карточкой компании Studio 22.
+                    </p>
+                    <p>
+                        На нём размещена информация о креативном пространстве, нашей команде и реализуемых проектах.
+                    </p>
+                    <p>
+                        Основной задачей сайта является привлечение новой аудитории.
+                    </p>
+                </section>
+                    
+                <section id="realization">
+                    <p>
+                        Сайт написан при помощи языка разметки гиертекста "html", формального языка описания внешенего вида документа "css" и языка программирования "JavaScript".
+                    </p>
+                    <p>
+                        В работе был задействован фреймворк css grid, благодаря которому сайт стал адаптивен на мобильных устройствах.
+                    </p>
+                </section>
+                    
+                <section id="acknowledgments">
+                    <p>
+                        Наша команда благодарит github за предоставленную возможность бесплатного размещения сайта в сети интернет при помощи github pages.
+                    </p>
+                    <p>
+                        В разработке сайта принимали участие: Меликбекян Ашот, Лёвин Александр и Толоконов Илья.
+                    </p>
+                </section>
             </div>
         </div>
 
